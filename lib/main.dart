@@ -1,6 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:awesome_notif_app/schedule.dart';
+import 'package:awesome_notif_app/notif_services.dart';
+import 'package:awesome_notifications/awesome_notifications.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await AwesomeNotifications().isNotificationAllowed().then((isAllowed) {
+    if (isAllowed) {
+      AwesomeNotifications().requestPermissionToSendNotifications();
+    }
+  });
+  await NotifServices.initializeNotification();
   runApp(const MyApp());
 }
 
