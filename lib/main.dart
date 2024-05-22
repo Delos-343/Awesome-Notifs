@@ -1,3 +1,4 @@
+import 'package:awesome_notif_app/pages/schedule_details.dart';
 import 'package:flutter/material.dart';
 import 'package:awesome_notif_app/schedule.dart';
 import 'package:awesome_notif_app/notif_services.dart';
@@ -30,7 +31,7 @@ class _MyAppState extends State<MyApp> {
       darkTheme: ThemeData.dark(useMaterial3: true),
       theme: ThemeData.light(useMaterial3: true),
       themeMode: ThemeMode.system,
-      home: Scaffold(),
+      home: ScheduleDetails(),
     );
   }
 }
