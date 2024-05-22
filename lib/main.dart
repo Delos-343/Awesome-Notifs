@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:awesome_notif_app/pages/schedule_details.dart';
-import 'package:awesome_notif_app/notif_services.dart';
+import 'package:awesome_notif_app/util/notif_services.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

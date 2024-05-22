@@ -1,8 +1,8 @@
 // ignore_for_file: depend_on_referenced_packages
 
 import 'package:flutter/material.dart';
-import 'package:awesome_notif_app/notif_services.dart';
-import 'package:awesome_notif_app/schedule.dart';
+import 'package:awesome_notif_app/util/notif_services.dart';
+import 'package:awesome_notif_app/util/schedule.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
 
 class ScheduleDetails extends StatefulWidget {

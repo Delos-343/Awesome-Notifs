@@ -3,7 +3,7 @@
 import 'dart:math';
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
-import 'package:awesome_notif_app/schedule.dart';
+import 'package:awesome_notif_app/util/schedule.dart';
 
 class NotifServices {
   static Future<void> initializeNotification() async {
