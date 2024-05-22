@@ -10,7 +10,7 @@ class NotifServices {
         channelKey: 'flutter_schedule_app_channel',
         channelName: 'Flutter Schedule App Channel',
         channelDescription:
-            'This channel is responsible for displaying Flutter Schedule App notifications.',
+            'This channel is responsible for displaying notifications.',
         importance: NotificationImportance.Max,
         defaultPrivacy: NotificationPrivacy.Public,
         defaultRingtoneType: DefaultRingtoneType.Alarm,
