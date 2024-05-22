@@ -48,6 +48,13 @@ class NotifServices {
           preciseAlarm: true,
           allowWhileIdle: true,
           timeZone: await AwesomeNotifications().getLocalTimeZoneIdentifier()),
+      actionButtons: [
+        NotificationActionButton(
+          key: "Close",
+          label: "Close Reminder",
+          autoDismissible: true,
+        )
+      ],
     );
   }
 }
