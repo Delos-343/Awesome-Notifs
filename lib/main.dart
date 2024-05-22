@@ -1,6 +1,7 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:awesome_notif_app/pages/schedule_details.dart';
 import 'package:flutter/material.dart';
-import 'package:awesome_notif_app/schedule.dart';
 import 'package:awesome_notif_app/notif_services.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
 
