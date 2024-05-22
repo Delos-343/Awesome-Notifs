@@ -27,8 +27,12 @@ class _ScheduleDetailsState extends State<ScheduleDetails> {
               ),
               maxLines: null,
               decoration: const InputDecoration(
-                  hintText: "Schedule your day ...",
-                  hintStyle: TextStyle(fontSize: 22)),
+                hintText: "Schedule your day ...",
+                hintStyle: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.w300,
+                ),
+              ),
             ),
           ),
           ElevatedButton(
